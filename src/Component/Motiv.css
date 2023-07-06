@@ -1,0 +1,13 @@
+.motive-text{
+    font-size:4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.text-border{
+    border: 1px solid black;
+    
+   
+}
+.work-image{
+    filter: hue-rotate(190deg);
+}

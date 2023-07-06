@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,113 @@
   to {
     transform: rotate(360deg);
   }
+} */
+html,body{
+  box-sizing: border-box;
+  overflow-x: hidden;
+  color: #034C63;
+}
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: local("Gilroy-Bold"),
+    url("./fonts/gilroy/Gilroy-Bold.ttf") format("truetype");
+  font-weight: normal;
+}
+/* @font-face {
+  font-family: "Gilroy-Regular";
+  src: local("Gilroy-Regular"),
+    url("./fonts/gilroy/Gilroy-Regular.ttf") format("truetype");
+  font-weight: normal;
+} */
+@font-face {
+  font-family: "Gilroy-Light";
+  src: local("Gilroy-Light"),
+    url("./fonts/gilroy/Gilroy-Light.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: local("Gilroy-Medium"),
+    url("./fonts/gilroy/Gilroy-Medium.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Gilroy-Heavy";
+  src: local("Gilroy-Heavy"),
+    url("./fonts/gilroy/Gilroy-Heavy.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Gilroy-HeavyItalic";
+  src: local("Gilroy-HeavyItalic"),
+    url("./fonts/gilroy/Gilroy-HeavyItalic.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Calluna-Regular";
+  src: local("Calluna-Regular"),
+    url("./fonts/calluna/Calluna-Regular.otf") format("otf");
+  font-weight: normal;
+}
+.text-color{
+  color: #034C63;
+}
+.btn-outline-color{
+  background-color: #0697C9;
+  /* border:2px solid #0D6667; */
+}
+
+.animate__delay-6s{
+  animation-delay: 6s;
+}
+.animate__delay-7s{
+  animation-delay: 7s;
+}
+.animate__delay-8s{
+  animation-delay: 8s;
+}
+
+button {
+  
+  /* box-shadow: 0px 5px 10px #0057ab; */
+  
+  cursor: pointer;
+ 
+  border-bottom: 4px solid #d9d9d9;
+}
+button:hover {
+  /* box-shadow: 0px 15px 25px -5px #0057ab; */
+  /* transform: scale(2.05); */
+}
+button:active {
+  /* box-shadow: 0px 4px 8px #0065c8; */
+  transform: scale(0.98);
+}
+.navbar-nav li:hover > ul.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu {
+  position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top:0;
+  left:100%;
+  margin-top:-6px;
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+  text-decoration: underline;
+  transform: rotate(-90deg);
+} 
+/*  */
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
 }
