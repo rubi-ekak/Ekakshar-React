@@ -4,7 +4,7 @@ import "./Form.css";
 import { useRef } from "react";
 import Selectbutton from "./Selectbutton";
 import { useFormik } from "formik";
-import { signUpSchema } from "../schemas/index.jsx";
+
 import emailjs from "@emailjs/browser";
 
 let result;
