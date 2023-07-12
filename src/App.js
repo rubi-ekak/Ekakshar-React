@@ -38,7 +38,7 @@ function App() {
       <Industry/>
       <Motiv/> */}
 
-      {/* <Footer/> */}
+      <Footer/>
       {/* <Projectimeline/> */}
       {/* <ProductForm /> */}
       {/* <Multileveldropdown/> */}

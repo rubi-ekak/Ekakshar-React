@@ -11,7 +11,7 @@ const HowStarted = () => {
         >
           <div class="position-absolute top-0 end-50 translate-middle">
             <button type="button" class="btn btn-primary">
-              step1
+            <a href="https://main--superlative-cascaron-35281e.netlify.app/" terget="_blank">step1</a>
             </button>
           </div>
 
