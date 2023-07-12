@@ -3,7 +3,7 @@ import "./Navbar.css"
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-navbar fixed-top ">
+    <nav className="navbar navbar-expand-lg bg-navbar fixed-top">
     <div className="container-fluid">
       <a className="navbar-brand text-color brand-style" href="#">ekakshar</a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">

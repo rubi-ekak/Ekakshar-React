@@ -4,7 +4,7 @@ import "./Timelineproduct.css";
 
 const Timelineproduct = () => {
   return (
-    <div class=" main-padding">
+    <div class=" main-padding bgcolor2">
       <h2>How to get started?</h2>
       {/* <h4 class="card-title mb-5 ">How to get started?</h4> */}
       <div class="timeline-product-padding">

@@ -10,13 +10,13 @@ const HowStarted = () => {
           style={{ height: "15rem", width: "50rem" }}
         >
           <div class="position-absolute top-0 end-50 translate-middle">
-            <button type="button" class="btn btn-primary">
+            <button type="button" class="btn bgbuttoncolor">
             <a href="https://main--superlative-cascaron-35281e.netlify.app/" terget="_blank">step1</a>
             </button>
           </div>
 
           <div class="position-absolute top-0 end-0 translate-middle">
-            <button type="button" class="btn btn-primary">
+            <button type="button" class="btn bgbuttoncolor">
               step2
             </button>
           </div>
@@ -47,13 +47,13 @@ const HowStarted = () => {
           style={{ height: "15rem", width: "50rem" }}
         >
           <div class="position-absolute top-25 end-50 translate-middle">
-            <button type="button" class="btn btn-primary">
+            <button type="button" class="btn bgbuttoncolor">
               step3
             </button>
           </div>
 
           <div class="position-absolute top-25 end-0 translate-middle">
-            <button type="button" class="btn btn-primary">
+            <button type="button" class="btn bgbuttoncolor">
               step4
             </button>
           </div>
@@ -77,7 +77,7 @@ const HowStarted = () => {
             </div>
           </div>
           <div class="position-absolute top-100 start-50 translate-middle">
-            <button type="button" class="btn btn-primary">
+            <button type="button" class="btn bgbuttoncolor">
               step5
             </button>
           </div>

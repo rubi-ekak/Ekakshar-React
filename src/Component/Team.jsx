@@ -14,7 +14,7 @@ const Team = () => {
   //     }
 
   return (
-    <section className="main-padding">
+    <section className="main-padding bgcolor1">
       <h2 className="content-heading">Ekak Innovator</h2>
       <div class="container">
         <div class="row gap-2">

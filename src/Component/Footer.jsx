@@ -4,7 +4,7 @@ import {} from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
-    <section className="main-padding">
+    <section className="main-padding bgcolor1">
       <div className="">
         <div className="col">
           <div class="row gx-5">

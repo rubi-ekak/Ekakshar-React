@@ -23,9 +23,9 @@ span.front-style-text{
     line-height:28%;
 }
 .main-padding{
-    padding-left: 2.3rem;
-    padding-right: 2.3rem;
-    background-color: #D5D3E8  ;
+    padding-left: 4.3rem;
+    padding-right: 4.3rem;
+    /* background-color: #D5D3E8  ; */
     padding-bottom: 4rem;
     padding-top: 4rem;
 }

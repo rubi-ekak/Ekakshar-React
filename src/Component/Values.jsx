@@ -21,7 +21,7 @@ const Values = () => {
         icon:""
        }
   return (
-    <section className="main-padding ">
+    <section className="main-padding bgcolor1">
       
         <div class=" text-center box-padding animate__animated animate__fadeInUp animate__delay-5s">
           <div class="row">
