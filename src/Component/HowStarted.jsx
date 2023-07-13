@@ -10,14 +10,14 @@ const HowStarted = () => {
           style={{ height: "15rem", width: "50rem" }}
         >
           <div class="position-absolute top-0 end-50 translate-middle">
-            <button type="button" class="btn bgbuttoncolor">
-            <a href="https://main--superlative-cascaron-35281e.netlify.app/" terget="_blank">step1</a>
+            <button type="" class="btn border bgbuttoncolor rounded-circle ">
+           1
             </button>
           </div>
 
           <div class="position-absolute top-0 end-0 translate-middle">
-            <button type="button" class="btn bgbuttoncolor">
-              step2
+          <button type="" class="btn border bgbuttoncolor rounded-circle ">
+           2
             </button>
           </div>
 
@@ -26,16 +26,19 @@ const HowStarted = () => {
               {/* <button type="button" class="btn btn-primary">step1</button> */}
               <div className="mt-4">
                 <h5>Contact Us</h5>
-                Fill out the form below or send us an email at ekakshar@ekak.in
-               
+                Tell us about yourself, your project idea, your budget, and your timeline.
+                
               </div>
+              <button type="" class="btn border btn-outline-color rounded-pill ">
+           read more
+            </button>
             </div>
             <div className="col-4">
               <div className="mt-4">
                 <h5> Schedule a consultation</h5>
                 {/* <button type="button" class="btn btn-primary">step2</button> */}
-                We will get back to you within 24 hours to schedule a free
-                consultation with one of our experts.
+                We will get back to you within 24 hours to schedule a free consultation with one 
+of our experts.
                
               </div>
               
@@ -47,14 +50,14 @@ const HowStarted = () => {
           style={{ height: "15rem", width: "50rem" }}
         >
           <div class="position-absolute top-25 end-50 translate-middle">
-            <button type="button" class="btn bgbuttoncolor">
-              step3
+          <button type="" class="btn border bgbuttoncolor rounded-circle ">
+           3
             </button>
           </div>
 
           <div class="position-absolute top-25 end-0 translate-middle">
-            <button type="button" class="btn bgbuttoncolor">
-              step4
+          <button type="" class="btn border bgbuttoncolor rounded-circle ">
+           4
             </button>
           </div>
 
@@ -62,34 +65,32 @@ const HowStarted = () => {
             <div className="col-4">
               <div className="mt-4">
                 <h5>Sign a contract</h5>
-                If you are happy with our proposal, we will send you a contract
-                that outlines the scope of work, deliverables, milestones,
-                payment terms, and other details.
+                Happy with our proposal?  We will share the scope of work, deliverables, 
+milestones, and payment terms.
               </div>
+             
             </div>
             <div className="col-4">
               <div className="mt-4">
                 <h5>Start working together</h5>
-                Once you sign the contract and make the first payment
-                installment (if applicable), we will start working on your
-                projec
+                Give us the go ahead - we start right away with a dedicated project manager.
               </div>
+            
             </div>
           </div>
           <div class="position-absolute top-100 start-50 translate-middle">
-            <button type="button" class="btn bgbuttoncolor">
-              step5
-            </button>
+          
           </div>
         </div>
 
         <div className="col-3">
           <div className="mt-4">
-            <h5> Schedule a consultation</h5>
+            <h5> Enjoy the results</h5>
             {/* <button type="button" class="btn btn-primary">step2</button> */}
-            We will get back to you within 24 hours to schedule a free
-            consultation with one of our experts.
+            You will receive the final product, along with the documentation, source files, and
+support.
           </div>
+         
         </div>
       </div>
     </div>

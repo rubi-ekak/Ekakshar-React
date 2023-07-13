@@ -11,5 +11,9 @@
     left:20
 }
 .bgbuttoncolor{
-  background-color: #0697C9;
+  background-color: #D5D3E8;
+  z-index: 200;
+}
+.bgbuttoncolor:hover{
+  background-color:#D5D3E8 ;
 }

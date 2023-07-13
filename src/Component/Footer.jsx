@@ -4,12 +4,12 @@ import {} from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
-    <section className="main-padding bgcolor1">
+    <section className="main-padding bgcolor2">
       <div className="">
         <div className="col">
           <div class="row gx-5">
             <div class="col-md-6">
-              <div class="p-3 fs-1 fw-400">es1</div>
+              <div class="p-3 fs-1 fw-400">ekakshar</div>
             </div>
 
             <div class="col-md-3 text-end text-decoration-none">

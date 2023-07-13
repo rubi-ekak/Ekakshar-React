@@ -34,7 +34,7 @@ const Mainpage = () => {
       {/* <Cards1/> */}
 
       
-      <Values />
+      {/* <Values /> */}
       
 
       {/* <Industry /> */}

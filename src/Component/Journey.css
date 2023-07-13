@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 70vw;
-    margin: 5% auto;
+    margin:0rem auto;
 }
 .timeline__event {
     /* background: #fff; */
@@ -15,12 +15,18 @@
     border-radius: 8px;
     /* box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025); */
 }
+.problem-title{
+    color: #9251ac; 
+}
+.Real-world{
+    color: #ac9e51; 
+}
 .timeline__event__title {
     font-size: 1.2rem;
     line-height: 1.4;
     text-transform: uppercase;
     font-weight: 600;
-    color: #9251ac;
+    /* color: #9251ac; */
     letter-spacing: 1.5px;
 }
 .timeline__event__content {
@@ -38,17 +44,35 @@
 .timeline__event__icon {
     border-radius: 8px 0 0 8px;
     /* background-image: url("../../public/EkaksharImages/Problem Identification.jpg"); */
-    background: #0697C9;
+    /* background: #0697C9; */
     box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-basis: 50%;
+    /* flex-basis: 50%; */
     font-size: 2rem;
     color: #9251ac;
-    padding: 20px;
+    padding: 5px;
     background-repeat: no-repeat;
     background-position: center;
+}
+.timeline__event__icon.ico{
+    background-color: #9251ac;
+}
+.timeline__event__icon.ico2{
+    background-color: #555ac0;
+}
+.timeline__event__icon.ico3{
+    background-color: #24b47e;
+}
+.timeline__event__icon.ico4{
+    background-color: #ac9e51;
+}
+.timeline__event__icon.ico5{
+    background-color: #e4a26c;
+}
+.deliver-solutions{
+    color: #e4a26c;
 }
 /* .timeline__event__icon .ico {
     position: absolute;

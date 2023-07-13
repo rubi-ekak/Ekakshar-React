@@ -12,9 +12,9 @@ const Chief = () => {
               <div className="d-flex flex-column justify-content-between">
                 <div className="mr-4">
                   <h2 className="content-heading">
-                    why choose us <span className="chief-txt"></span>
+                    Why Choose Us <span className="chief-txt"></span>
                   </h2>
-                  <p className="text-start formula-text para-family">
+                  <p className=" formula-text para-family">
                     We are not just another product development services. We are
                     a team of passionate designers, engineers, analysts, and
                     makers who care about the planet and the people. We have
@@ -22,17 +22,26 @@ const Chief = () => {
                     various industries, such as healthcare, education, energy,
                     transportation, agriculture, and more. We have helped our
                     clients achieve their goals while reducing their
-                    environmental footprint. We are not only experts in
-                    sustainable design practices, but also in customer
-                    satisfaction. We value your feedback and input throughout
-                    the product journey. We listen to your needs and
-                    expectations, and we deliver on our promises. We are always
-                    ready to go the extra mile for you. We are not only a
-                    service provider, but also a partner in innovation. We share
-                    your vision and mission of creating products that make a
-                    positive difference in the world. We support you in every
-                    step of the way, from ideation to implementation. We
-                    celebrate your successes and learn from your challenges.
+                    environmental footprint.
+                  </p>
+                </div>
+                <div className="mr-4">
+                  <p className=" formula-text para-family">
+                    We are not only experts in sustainable design practices, but
+                    also in customer satisfaction. We value your feedback and
+                    input throughout the product journey. We listen to your
+                    needs and expectations, and we deliver on our promises. We
+                    are always ready to go the extra mile for you.
+                  </p>
+                </div>
+                <div className="mr-4">
+                  <p className=" formula-text para-family">
+                    We are not only a service provider, but also a partner in
+                    innovation. We share your vision and mission of creating
+                    products that make a positive difference in the world. We
+                    support you in every step of the way, from ideation to
+                    implementation. We celebrate your successes and learn from
+                    your challenges. We are Ekakshar. And we are here for you.
                   </p>
                 </div>
                 <div className="button-margin">
@@ -44,7 +53,7 @@ const Chief = () => {
                       href="https://ekak.in/"
                       className="text-decoration-none text-dark"
                     >
-                      more about
+                      Join us
                     </a>
                     {/* <Icon icon="bx:chevron-up" rotate={3} width={"1.3rem"} /> */}
                   </button>
@@ -65,19 +74,15 @@ const Chief = () => {
               </div>
             </div>
           </div>
-          <div class="col d-flex align-items-center justify-content-end animate__delay-7s animate__animated animate__fadeInRight">
+          <div class="col d-flex justify-content-end animate__delay-7s animate__animated animate__fadeInRight">
             <div class="text-center">
               <img
-                src="/pexels-sumit-kapoor.jpg"
+                src="/EkaksharImages/About Us.jpg"
                 alt="image"
                 className="rounded-2"
+                style={{"height": "23rem", "width":"30rem" }}
               />
-              {/* <h2>Service Formula</h2>
-                <p className="text-start">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-                  ducimus ullam harum sit exercitationem earum, tenetur sequi
-                  quas!
-                </p> */}
+              
             </div>
           </div>
         </div>

@@ -30,6 +30,12 @@ const Carousal = () => {
             data-bs-slide-to="2"
             aria-label="Slide 3"
           ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -39,9 +45,10 @@ const Carousal = () => {
               alt="..."
             />
             <div class="carousel-caption  d-md-block carousal-show text-allignment  padding-box">
-              <h1 className="heading-top"></h1>
-              <p className="para-text mt-4">
+              <h1 className="heading-top text-capitalize">
                 Bring your ideas to life with our rapid prototyping services!
+              </h1>
+              <p className="para-text mt-4">
                 Create customized products that are quick, easy, and
                 sustainable. Let us help you turn your imagination into reality!
               </p>
@@ -57,12 +64,14 @@ const Carousal = () => {
               alt="..."
             />
             <div class="carousel-caption  d-md-block carousal-show text-allignment padding-box">
-              <h1 className="heading-top"></h1>
+              <h1 className="heading-top text-capitalize">
+                Need engineering support to solve operational issues?
+              </h1>
               <p className="para-text mt-4">
-                Need engineering support to solve operational issues? Our team
-                is here to help! We’ll reimagine your processes and remove
-                bottlenecks with our expert Engineering Consulting services. Let
-                us help you streamline your operations and achieve success.
+                Our team is here to help! We’ll reimagine your processes and
+                remove bottlenecks with our expert Engineering Consulting
+                services. Let us help you streamline your operations and achieve
+                success.
               </p>
               {/* <button className="bttn button-carousel">
               <a href="https://www.facebook.com" onClick={()=>gaEventTracker('DAVE show more data')}>Show more</a>
@@ -76,12 +85,34 @@ const Carousal = () => {
               alt="..."
             />
             <div class="carousel-caption  d-md-block  carousal-show text-allignment padding-box">
-              <h1 className="heading-top"></h1>
+              <h1 className="heading-top text-capitalize">
+                Need affordable Computer Aided Design (CAD) services?
+              </h1>
               <p className="para-text mt-4">
-                Need affordable Computer Aided Design (CAD) services? Look no
-                further! Submit your idea and receive a CAD model within just 5
-                working days, all at an affordable rate. Let us help you bring
-                your designs to life quickly and cost- effectively.
+                Look no further! Submit your idea and receive a CAD model within
+                just 5 working days, all at an affordable rate. Let us help you
+                bring your designs to life quickly and cost- effectively.
+              </p>
+              {/* <button className="bttn button-carousel">
+              <a href="https://www.instagram.com/" onClick={()=>gaEventTracker('3D Printing show more data')}>Show more</a>
+            </button> */}
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/EkaksharImages/How to get started3.jpg"
+              className="d-block w-100 image-shadow"
+              alt="..."
+            />
+            <div class="carousel-caption  d-md-block  carousal-show text-allignment padding-box">
+              <h1 className="heading-top text-capitalize">
+                Looking for flexible and cost-effective manufacturing solutions?
+              </h1>
+              <p className="para-text mt-4">
+                Try our Manufacturing-as-a-Service (MaaS) offering! Access our
+                network of manufacturers on demand, without investing in fixed
+                assets or inventory. Let us help you scale up production and
+                deliver your products to market.
               </p>
               {/* <button className="bttn button-carousel">
               <a href="https://www.instagram.com/" onClick={()=>gaEventTracker('3D Printing show more data')}>Show more</a>

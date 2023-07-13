@@ -14,9 +14,142 @@ const Team = () => {
   //     }
 
   return (
-    <section className="main-padding bgcolor1">
+    <section className="main-padding bgcolor2">
       <h2 className="content-heading">Ekak Innovator</h2>
-      <div class="container">
+      <div class="container-fluid box-padding">
+        <div class="row gx-5">
+          <div class="col">
+            <div class="p-3">
+              <div className="d-flex flex-column justify-content-between animate__animated animate__fadeInRight">
+                <div className="mr-4">
+                  <p className=" formula-text para-family">
+                    We are a group of passionate professionals who love what we
+                    do. We have diverse backgrounds and skills, but we share a
+                    common vision: to empower you to build whatever you can
+                    imagine, with a strong focus on sustainability.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex align-items-center justify-content-end animate__animated animate__fadeInLeft">
+            <div class="text-center">
+              <img
+                src="/EkaksharImages/Intro3.1.jpg"
+                alt="image"
+                className="rounded-2 about-image"
+                style={{ height: "23rem", width: "30rem" }}
+              />
+              {/* <h2>Service Formula</h2>
+                <p className="text-start">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                  ducimus ullam harum sit exercitationem earum, tenetur sequi
+                  quas!
+                </p> */}
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*  */}
+      <div class="container-fluid box-padding pt-4">
+        <div class="row gx-5">
+          <div class="col d-flex align-items-center justify-content-start animate__animated animate__fadeInRight">
+            <div class="text-center">
+              <img
+                src="/EkaksharImages/Intro3.1.jpg"
+                alt="image"
+                className="rounded-2 about-image"
+                style={{ height: "23rem", width: "30rem" }}
+              />
+              {/* <h2>Service Formula</h2>
+                <p className="text-start">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                  ducimus ullam harum sit exercitationem earum, tenetur sequi
+                  quas!
+                </p> */}
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="p-3">
+              <div className="d-flex flex-column justify-content-between animate__animated animate__fadeInLeft">
+                <div className="mr-4">
+                  <p className=" formula-text para-family">
+                    We started Ekakshar in 2020, after realizing that there was
+                    a gap in the market for product development services that
+                    focus on sustainability. We wanted to offer our clients a
+                    unique value proposition: to help them create products that
+                    are not only innovative and profitable, but also
+                    environmentally friendly, socially responsible, and
+                    economically viable.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*  */}
+      <div class="container-fluid box-padding pt-4">
+        <div class="row gx-5">
+          <div class="col">
+            <div class="p-3">
+              <div className="d-flex flex-column justify-content-between animate__animated animate__fadeInRight">
+                <div className="mr-4">
+                  <p className=" formula-text para-family">
+                    We have since grown into a team of 10+ designers, engineers,
+                    analysts, and makers, who work together to deliver
+                    high-quality products for our clients. We have also expanded
+                    our portfolio of services, from product design and
+                    engineering analysis, to prototyping and 3D printing, to
+                    manufacturing-as-a- service and small-scale manufacturing
+                    support
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex align-items-center justify-content-end animate__animated animate__fadeInLeft">
+            <div class="text-center">
+              <img
+                src="/EkaksharImages/Intro3.1.jpg"
+                alt="image"
+                className="rounded-2 about-image"
+                style={{ height: "23rem", width: "30rem" }}
+              />
+              {/* <h2>Service Formula</h2>
+                <p className="text-start">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                  ducimus ullam harum sit exercitationem earum, tenetur sequi
+                  quas!
+                </p> */}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="pt-4">
+        <div className="row">
+        <div class="col">
+            <div class="p-3">
+              <div className="d-flex flex-column justify-content-between animate__animated animate__fadeInRight">
+                <div className="mr-4">
+                  <p className=" formula-text para-family">
+                  We are proud of the work we have done so far, and we are excited about the 
+future. We are always looking for new challenges and opportunities to create 
+products that make a positive difference in the world.
+We are guided by our core values: integrity, exploration, teamwork, creating 
+positive impact, and always being curious. These values shape our culture, our 
+work ethic, and our relationships with our clients and partners.
+We are Ekakshar. And we would love to work with you.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      {/* <div class="container">
         <div class="row gap-2">
           <div class="col border border-top-0 border-bottom-0 p-4 text-justify rounded-4 team-context-about para-family animate__fadeInUp animate__animated ">
             We are a group of passionate professionals who love what we do. We
@@ -198,7 +331,7 @@ const Team = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
