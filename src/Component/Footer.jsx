@@ -15,7 +15,7 @@ const Footer = () => {
             <div class="col-md-3 text-end text-decoration-none">
               <ul className="text-decoration-none p-3 fs-4 text-start">
                 <li>info@ekak.in</li>
-                <li className="mt-2">+1(605)338-6868</li>
+                <li className="mt-2">0512-4028469</li>
                 {/* <li className="mt-2">
                   <button
                     type="button"
@@ -38,12 +38,12 @@ const Footer = () => {
                 </li> */}
               </ul>
             </div>
-            <div class="col-md-3 text-end text-decoration-none">
+            {/* <div class="col-md-3 text-end text-decoration-none">
               <ul className="text-decoration-none p-3 fs-4 text-start">
                 <li>customer space</li>
                 <li className="mt-2">legal</li>
               </ul>
-            </div>
+            </div> */}
           </div>
           <div class="share d-flex align-items-center justify-content-center ">
             <span className="">Share</span>

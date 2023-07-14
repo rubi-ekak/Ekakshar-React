@@ -4,11 +4,11 @@ import { Icon } from "@iconify/react";
 
 const Chief = () => {
   return (
-    <section className="main-padding bgcolor2">
+    <section className="main-padding bgcolor2" id="whychoose">
       <div class="container-fluid box-padding">
-        <div class="row gx-5">
+        <div class="row">
           <div class="col animate__delay-7s animate__fadeInLeft animate__animated">
-            <div class="p-3">
+            <div class="">
               <div className="d-flex flex-column justify-content-between">
                 <div className="mr-4">
                   <h2 className="content-heading">
@@ -74,13 +74,13 @@ const Chief = () => {
               </div>
             </div>
           </div>
-          <div class="col d-flex justify-content-end animate__delay-7s animate__animated animate__fadeInRight">
+          <div class="col d-flex justify-content-start animate__delay-7s animate__animated animate__fadeInRight">
             <div class="text-center">
               <img
                 src="/EkaksharImages/About Us.jpg"
                 alt="image"
                 className="rounded-2"
-                style={{"height": "23rem", "width":"30rem" }}
+                style={{"height": "23rem", "width":"34rem" }}
               />
               
             </div>

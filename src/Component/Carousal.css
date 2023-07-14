@@ -30,7 +30,7 @@ a{
     left: 15rem;
 }
 .heading-top{
-    font-size:3rem ;
+    font-size:2rem ;
     font-weight: 800;
 }
 .image-shadow{
@@ -45,7 +45,19 @@ a{
 }
 .padding-box{
     padding: 1.5rem;
+
+
 }
+
+.carousel-control-prev-icon {
+    background-image: none;
+
+}   
+
+.carousel-control-next-icon{
+    background-image: none;
+
+}   
  /* for mobile view */
 
 @media (min-width:320px) and (max-width:480px){

@@ -5,9 +5,9 @@ const Award = () => {
   return (
     <section className="main-padding bgcolor1">
       <div class="container-fluid box-padding">
-        <div class="row gx-5">
+        <div class="row ">
           <div class="col">
-            <div class="p-3">
+            <div class="">
               <div className="d-flex flex-column justify-content-between">
                 <div className="mr-4">
                   <h2 className="content-heading">Co-create with Ekakshar</h2>
@@ -37,13 +37,13 @@ const Award = () => {
               </div>
             </div>
           </div>
-          <div class="col d-flex align-items-center justify-content-end">
+          <div class="col d-flex align-items-center justify-content-start">
             <div className="d-flex align-items-center">
               {/* <div className="oval"></div> */}
               <div>
                 <img
                   src="/EkaksharImages/Ekakshar_BrainstormIDeas2.jpg"
-                  style={{ height: "23rem", width: "30rem" }}
+                  style={{ height: "23rem", width: "34rem" }}
                   className="rounded-3"
                 ></img>
               </div>

@@ -4,12 +4,12 @@ import { Icon } from "@iconify/react";
 
 const About = () => {
   return (
-    <section className="main-padding bgcolor1">
+    <section className="main-padding bgcolor1" id="home">
       <div class="container-fluid box-padding">
-        <div class="row gx-5">
+        <div class="row ">
           <div class="col">
-            <div class="p-3">
-              <div className="d-flex flex-column justify-content-between animate__animated animate__fadeInLeft">
+            <div class="">
+              <div className="d-flex flex-column justify-content-between animate__animated animate__fadeInLeft p-0">
                 <div className="mr-4">
                   <h2 className="content-heading">Welcome to Ekakshar</h2>
                   <p className=" formula-text para-family">
@@ -28,14 +28,14 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div class="col d-flex align-items-center justify-content-end animate__animated animate__fadeInRight">
+          <div class="col d-flex align-items-center justify-content-start animate__animated animate__fadeInRight">
             <div class="text-center">
         
               <img
-                src="/EkaksharImages/Intro3.1.jpg"
+                src="/EkaksharImages/Ekaksharimage.jpg"
                 alt="image"
                 className="rounded-2 about-image"
-                style={{ height: "23rem", width: "30rem" }}
+                style={{ height: "23rem", width: "34rem" }}
               />
               {/* <h2>Service Formula</h2>
                 <p className="text-start">

@@ -14,12 +14,12 @@ const Team = () => {
   //     }
 
   return (
-    <section className="main-padding bgcolor2">
+    <section className="main-padding bgcolor2" id="ekakinnovator">
       <h2 className="content-heading">Ekak Innovator</h2>
       <div class="container-fluid box-padding">
-        <div class="row gx-5">
+        <div class="row ">
           <div class="col">
-            <div class="p-3">
+            <div class="">
               <div className="d-flex flex-column justify-content-between animate__animated animate__fadeInRight">
                 <div className="mr-4">
                   <p className=" formula-text para-family">
@@ -32,13 +32,13 @@ const Team = () => {
               </div>
             </div>
           </div>
-          <div class="col d-flex align-items-center justify-content-end animate__animated animate__fadeInLeft">
+          <div class="col d-flex align-items-center justify-content-start animate__animated animate__fadeInLeft">
             <div class="text-center">
               <img
                 src="/EkaksharImages/Intro3.1.jpg"
                 alt="image"
                 className="rounded-2 about-image"
-                style={{ height: "23rem", width: "30rem" }}
+                style={{ height: "23rem", width: "34rem" }}
               />
               {/* <h2>Service Formula</h2>
                 <p className="text-start">
@@ -52,14 +52,14 @@ const Team = () => {
       </div>
       {/*  */}
       <div class="container-fluid box-padding pt-4">
-        <div class="row gx-5">
-          <div class="col d-flex align-items-center justify-content-start animate__animated animate__fadeInRight">
+        <div class="row ">
+          <div class="col d-flex align-items-center justify-content-end animate__animated animate__fadeInRight">
             <div class="text-center">
               <img
                 src="/EkaksharImages/Intro3.1.jpg"
                 alt="image"
                 className="rounded-2 about-image"
-                style={{ height: "23rem", width: "30rem" }}
+                style={{ height: "23rem", width: "34rem" }}
               />
               {/* <h2>Service Formula</h2>
                 <p className="text-start">
@@ -71,8 +71,8 @@ const Team = () => {
           </div>
 
           <div class="col">
-            <div class="p-3">
-              <div className="d-flex flex-column justify-content-between animate__animated animate__fadeInLeft">
+            <div class="">
+              <div className="d-flex flex-column justify-content- animate__animated animate__fadeInLeft">
                 <div className="mr-4">
                   <p className=" formula-text para-family">
                     We started Ekakshar in 2020, after realizing that there was
@@ -91,9 +91,9 @@ const Team = () => {
       </div>
       {/*  */}
       <div class="container-fluid box-padding pt-4">
-        <div class="row gx-5">
+        <div class="row">
           <div class="col">
-            <div class="p-3">
+            <div class="">
               <div className="d-flex flex-column justify-content-between animate__animated animate__fadeInRight">
                 <div className="mr-4">
                   <p className=" formula-text para-family">
@@ -109,13 +109,13 @@ const Team = () => {
               </div>
             </div>
           </div>
-          <div class="col d-flex align-items-center justify-content-end animate__animated animate__fadeInLeft">
+          <div class="col d-flex align-items-center justify-content-start animate__animated animate__fadeInLeft">
             <div class="text-center">
               <img
                 src="/EkaksharImages/Intro3.1.jpg"
                 alt="image"
                 className="rounded-2 about-image"
-                style={{ height: "23rem", width: "30rem" }}
+                style={{ height: "23rem", width: "34rem" }}
               />
               {/* <h2>Service Formula</h2>
                 <p className="text-start">
