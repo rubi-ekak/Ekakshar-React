@@ -27,10 +27,10 @@ const Navbar = () => {
                 activeClass="active"
                 to="home"
                 smooth={false}
-                offset={5}
+                offset={-90}
                 className="nav-link nav-item active text-color"
               >
-                about us
+                About Us
               </Link>
               {/* <a
                 className="nav-link active text-color"
@@ -62,7 +62,7 @@ const Navbar = () => {
                 offset={-60}
                 className="nav-link nav-item  text-color"
               >
-                why choose
+                Why Choose
               </Link>
               {/* <a className="nav-link text-color " href="#">
                 why choose
@@ -76,7 +76,7 @@ const Navbar = () => {
                 offset={-60}
                 className="nav-link nav-item  text-color"
               >
-                get Started
+                Get Started
               </Link>
               {/* <a className="nav-link text-color" href="#">
                 get Started
@@ -90,7 +90,7 @@ const Navbar = () => {
                 offset={-60}
                 className="nav-link nav-item  text-color"
               >
-                 ekak Innovator
+                 Ekak Innovators
               </Link>
               {/* <a className="nav-link text-color" href="#">
                 ekak Innovator

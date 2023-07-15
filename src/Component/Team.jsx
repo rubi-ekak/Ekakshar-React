@@ -15,10 +15,10 @@ const Team = () => {
 
   return (
     <section className="main-padding bgcolor2" id="ekakinnovator">
-      <h2 className="content-heading">Ekak Innovator</h2>
+      <h2 className="content-heading">Ekak Innovators</h2>
       <div class="container-fluid box-padding">
         <div class="row ">
-          <div class="col">
+          <div class="col p-0">
             <div class="">
               <div className="d-flex flex-column justify-content-between animate__animated animate__fadeInRight">
                 <div className="mr-4">
@@ -70,7 +70,7 @@ const Team = () => {
             </div>
           </div>
 
-          <div class="col">
+          <div class="col p-0">
             <div class="">
               <div className="d-flex flex-column justify-content- animate__animated animate__fadeInLeft">
                 <div className="mr-4">
@@ -92,7 +92,7 @@ const Team = () => {
       {/*  */}
       <div class="container-fluid box-padding pt-4">
         <div class="row">
-          <div class="col">
+          <div class="col p-0">
             <div class="">
               <div className="d-flex flex-column justify-content-between animate__animated animate__fadeInRight">
                 <div className="mr-4">
@@ -129,7 +129,7 @@ const Team = () => {
       </div>
       <div className="pt-4">
         <div className="row">
-        <div class="col">
+        <div class="col p-0">
             <div class="p-3">
               <div className="d-flex flex-column justify-content-between animate__animated animate__fadeInRight">
                 <div className="mr-4">
