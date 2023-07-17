@@ -11,7 +11,7 @@ const Journey = () => {
           <div class="timeline__event__icon ico">
             <div class="timeline__event__date problem-image">
               <img
-                src="/EkaksharImages/Problem Identification2.jpg"
+                src="/EkaksharImages/problem-identification3.jpg"
                 className="w-100%"
                 // style={{ height: "9rem", width: "11rem" }}
               ></img>
@@ -35,7 +35,7 @@ const Journey = () => {
           <div class="timeline__event__icon ico2">
             <div class="timeline__event__date">
               <img
-                src="/EkaksharImages/Brainstorming Ideas2.jpg"
+                src="/EkaksharImages/brainstorming-ideas2.jpg"
                 className="w-100%"
               ></img>
             </div>
@@ -57,7 +57,7 @@ const Journey = () => {
           <div class="timeline__event__icon ico3">
             <div class="timeline__event__date">
               <img
-                src="/EkaksharImages/Prototype Iterations2.jpg"
+                src="/EkaksharImages/prototype-images1.jpg"
                 className="w-100%"
               ></img>
             </div>
@@ -79,7 +79,7 @@ const Journey = () => {
           <div class="timeline__event__icon ico4">
             <div class="timeline__event__date">
               <img
-                src="/EkaksharImages/RealWorldDevelopment2.jpg"
+                src="/EkaksharImages/realworld-development2.jpg"
                 className="w-100%"
               ></img>
             </div>
@@ -104,7 +104,7 @@ const Journey = () => {
           <div class="timeline__event__icon ico5">
             <div class="">
               <img
-                src="/EkaksharImages/Delivering Solutions2.jpg"
+                src="/EkaksharImages/delivering-solutions3.jpg"
                 className="w-100%"
               ></img>
             </div>

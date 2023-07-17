@@ -62,7 +62,7 @@ const Navbar = () => {
                 offset={-60}
                 className="nav-link nav-item  text-color"
               >
-                Why Choose
+                Why Choose Us
               </Link>
               {/* <a className="nav-link text-color " href="#">
                 why choose
