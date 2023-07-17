@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
+  const [navitem, setnavitem]=useState(false);
+  // const handlenav=()=>{
+  //   setnavitem(true)
+  //   console.log(navitem)
+  // }
+
   return (
-    <nav className="navbar navbar-expand-lg bg-navbar fixed-top">
+    <nav className="navbar navbar-expand-lg bg-navbar fixed-top ">
       <div className="container-fluid">
         <a className="navbar-brand text-color brand-style" href="#">
           ekakshar
@@ -28,10 +34,12 @@ const Navbar = () => {
                 to="home"
                 smooth={false}
                 offset={-90}
-                className="nav-link nav-item active text-color"
+                className={navitem?"nav-link navhighlight":"nav-link"}
+                
               >
                 About Us
               </Link>
+              <div className="bg-primary" style={navitem?{width:"70px",height:"2px"}:{width:"0px",height:"0px"}}></div>
               {/* <a
                 className="nav-link active text-color"
                 aria-current="page"
@@ -48,7 +56,22 @@ const Navbar = () => {
                 offset={-60}
                 className="nav-link nav-item  text-color"
               >
+               Product Journey
+              </Link>
+              {/* <a className="nav-link text-color" href="#">
                 Journey
+              </a> */}
+            </li>
+
+            <li className="nav-item px-2 text-color">
+              <Link
+                activeClass="active"
+                to="cocreate"
+                smooth={false}
+                offset={-60}
+                className="nav-link nav-item  text-color"
+              >
+               Co-create
               </Link>
               {/* <a className="nav-link text-color" href="#">
                 Journey
@@ -82,7 +105,7 @@ const Navbar = () => {
                 get Started
               </a> */}
             </li>
-            <li className="nav-item px-2 text-color">
+            {/* <li className="nav-item px-2 text-color">
             <Link
                 activeClass="active"
                 to="ekakinnovator"
@@ -92,10 +115,8 @@ const Navbar = () => {
               >
                  Ekak Innovators
               </Link>
-              {/* <a className="nav-link text-color" href="#">
-                ekak Innovator
-              </a> */}
-            </li>
+             
+            </li> */}
           </ul>
           <form className="d-flex" role="search">
             {/* <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/> */}

@@ -5,7 +5,7 @@ import { Icon } from "@iconify/react";
 const Journey = () => {
   return (
     <div className="main-padding bgcolor2" id="journey">
-      <h2 className="content-heading">Our Journey</h2>
+      <h2 className="content-heading">Product Journey</h2>
       <div class="timeline pl-4 pr-4">
         <div class="timeline__event timeline__event--type1 animate__animated animate__delay-1s  animate__fadeInUp">
           <div class="timeline__event__icon ico">

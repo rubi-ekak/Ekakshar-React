@@ -52,9 +52,18 @@ const Carousal = () => {
                 Create customized products that are quick, easy, and
                 sustainable. Let us help you turn your imagination into reality!
               </p>
-              {/* <button className="bttn button-carousel">
-              <a href="https://www.google.com" onClick={()=>gaEventTracker('Argus show more data')}>Show more</a>
-            </button> */}
+              <button
+                    type="button"
+                    class="btn btn-outline-color rounded-pill mt-4 animate__animated animate__bounce"
+                  >
+                    <a
+                      href="https://ekak.in/"
+                      className="text-decoration-none text-dark"
+                    >
+                      Join us
+                    </a>
+                    {/* <Icon icon="bx:chevron-up" rotate={3} width={"1.3rem"} /> */}
+                  </button>
             </div>
           </div>
           <div class="carousel-item">
@@ -73,9 +82,18 @@ const Carousal = () => {
                 services. Let us help you streamline your operations and achieve
                 success.
               </p>
-              {/* <button className="bttn button-carousel">
-              <a href="https://www.facebook.com" onClick={()=>gaEventTracker('DAVE show more data')}>Show more</a>
-            </button> */}
+              <button
+                    type="button"
+                    class="btn btn-outline-color rounded-pill mt-4 animate__animated animate__bounce"
+                  >
+                    <a
+                      href="https://ekak.in/"
+                      className="text-decoration-none text-dark"
+                    >
+                      Join us
+                    </a>
+                    {/* <Icon icon="bx:chevron-up" rotate={3} width={"1.3rem"} /> */}
+                  </button>
             </div>
           </div>
           <div class="carousel-item">
@@ -93,14 +111,23 @@ const Carousal = () => {
                 just 5 working days, all at an affordable rate. Let us help you
                 bring your designs to life quickly and cost- effectively.
               </p>
-              {/* <button className="bttn button-carousel">
-              <a href="https://www.instagram.com/" onClick={()=>gaEventTracker('3D Printing show more data')}>Show more</a>
-            </button> */}
+              <button
+                    type="button"
+                    class="btn btn-outline-color rounded-pill mt-4  animate__animated animate__bounce"
+                  >
+                    <a
+                      href="https://ekak.in/"
+                      className="text-decoration-none text-dark"
+                    >
+                      Join us
+                    </a>
+                    {/* <Icon icon="bx:chevron-up" rotate={3} width={"1.3rem"} /> */}
+                  </button>
             </div>
           </div>
           <div class="carousel-item">
             <img
-              src="/EkaksharImages/How to get started3.jpg"
+              src="/EkaksharImages/Ekaksha-carousal1.jpg"
               className="d-block w-100 image-shadow"
               alt="..."
             />
@@ -114,9 +141,18 @@ const Carousal = () => {
                 assets or inventory. Let us help you scale up production and
                 deliver your products to market.
               </p>
-              {/* <button className="bttn button-carousel">
-              <a href="https://www.instagram.com/" onClick={()=>gaEventTracker('3D Printing show more data')}>Show more</a>
-            </button> */}
+              <button
+                    type="button"
+                    class="btn btn-outline-color rounded-pill mt-4 animate__animated animate__bounce"
+                  >
+                    <a
+                      href="https://ekak.in/"
+                      className="text-decoration-none text-dark"
+                    >
+                      Join us
+                    </a>
+                    {/* <Icon icon="bx:chevron-up" rotate={3} width={"1.3rem"} /> */}
+                  </button>
             </div>
           </div>
         </div>

@@ -3,7 +3,7 @@ import "./Award.css";
 
 const Award = () => {
   return (
-    <section className="main-padding bgcolor1">
+    <section className="main-padding bgcolor1" id="cocreate">
       <div class="container-fluid box-padding">
         <div class="row ">
           <div class="col">
@@ -42,7 +42,7 @@ const Award = () => {
               {/* <div className="oval"></div> */}
               <div>
                 <img
-                  src="/EkaksharImages/Ekakshar_BrainstormIDeas2.jpg"
+                  src="/EkaksharImages/Co-CreatewithEkakshar.jpg"
                   style={{ height: "23rem", width: "34rem" }}
                   className="rounded-3"
                 ></img>

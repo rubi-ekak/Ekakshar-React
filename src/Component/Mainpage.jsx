@@ -39,7 +39,7 @@ const Mainpage = () => {
 
       {/* <Industry /> */}
       <Timelineproduct />
-      <Team />
+      {/* <Team /> */}
       <Motiv />
     </div>
   );

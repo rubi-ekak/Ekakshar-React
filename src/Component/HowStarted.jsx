@@ -7,7 +7,7 @@ const HowStarted = () => {
       <div className="d-flex flex-column align-items-center mt-4">
         <div
           className="position-relative border border-danger border-start-0 rounded-end-4 box-timeline1"
-          style={{ height: "15rem", width: "50rem" }}
+          style={{ height: "10rem", width: "50rem" }}
         >
           <div class="position-absolute top-0 end-50 translate-middle">
             <button type="" class="btn border bgbuttoncolor rounded-circle ">
@@ -39,22 +39,11 @@ const HowStarted = () => {
                 consultation with one of our experts.
               </div>
             </div>
-
-
-
-          </div>
-          <div className="d-flex align-items-center justify-content-start margin-contact  ">
-          <button
-              type=""
-              class="btn border btn-outline-color rounded-pill mt-2"
-            >
-              read more
-            </button>
           </div>
         </div>
         <div
           className="position-relative border border-danger border-end-0 rounded-start-4 border-top-0"
-          style={{ height: "15rem", width: "50rem" }}
+          style={{ height: "10rem", width: "50rem" }}
         >
           <div class="position-absolute top-25 end-50 translate-middle">
             <button type="" class="btn border bgbuttoncolor rounded-circle ">
@@ -86,12 +75,17 @@ const HowStarted = () => {
           </div>
         </div>
 
-        <div className="col-3">
+        <div className="col-3 position-relative">
           <div class="position-absolute top-25 start-50 translate-middle">
             <button type="" class="btn border bgbuttoncolor rounded-circle ">
               5
             </button>
           </div>
+          {/* <div class="position-absolute top-25 start-50 translate-middle">
+            <button type="" class="btn border bgbuttoncolor rounded-circle ">
+              5
+            </button>
+          </div> */}
           <div className="mt-4">
             <h5> Enjoy the results</h5>
             {/* <button type="button" class="btn btn-primary">step2</button> */}
@@ -99,6 +93,14 @@ const HowStarted = () => {
             source files, and support.
           </div>
         </div>
+        {/* <div className="d-flex align-items-center justify-content-start margin-contact  ">
+          <button
+            type=""
+            class="btn border btn-outline-color rounded-pill mt-2"
+          >
+            read more
+          </button>
+        </div> */}
       </div>
     </div>
   );

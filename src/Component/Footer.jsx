@@ -45,7 +45,7 @@ const Footer = () => {
               </ul>
             </div> */}
           </div>
-          <div class="share d-flex align-items-center justify-content-center ">
+          <div class="share d-flex align-items-center justify-content-center">
             <span className="">Share</span>
             <nav>
               share
