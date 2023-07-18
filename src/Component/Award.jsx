@@ -4,13 +4,14 @@ import "./Award.css";
 const Award = () => {
   return (
     <section className="main-padding bgcolor1" id="cocreate">
+      
       <div class="container-fluid box-padding">
         <div class="row ">
-          <div class="col">
+          <div class="col p-0">
             <div class="">
               <div className="d-flex flex-column justify-content-between">
                 <div className="mr-4">
-                  <h2 className="content-heading">Co-create with Ekakshar</h2>
+                <h2 className="content-heading">Co-create with Ekakshar</h2>
                   <p className=" formula-text para-family">
                     We believe in collaborative innovation strategy and human
                     centric design. We work closely with you throughout the

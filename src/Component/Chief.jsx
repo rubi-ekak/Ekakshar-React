@@ -7,9 +7,12 @@ const Chief = () => {
     <section className="main-padding bgcolor2" id="whychoose">
       
       <div class="container-fluid box-padding">
-        <div class="row">
+        <div class="row"> 
+
           <div class="col d-flex justify-content-end animate__delay-7s animate__animated animate__fadeInRight">
+         
             <div class="text-center">
+            
               <img
                 src="/EkaksharImages/ChooseUs2.jpg"
                 alt="image"

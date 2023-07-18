@@ -76,31 +76,26 @@ const HowStarted = () => {
         </div>
 
         <div className="col-3 position-relative">
+          
           <div class="position-absolute top-25 start-50 translate-middle">
             <button type="" class="btn border bgbuttoncolor rounded-circle ">
               5
             </button>
           </div>
-          {/* <div class="position-absolute top-25 start-50 translate-middle">
+          <div class="position-absolute  start-100 translate-middle">
             <button type="" class="btn border bgbuttoncolor rounded-circle ">
-              5
+              Read more
             </button>
-          </div> */}
+          </div>
           <div className="mt-4">
             <h5> Enjoy the results</h5>
             {/* <button type="button" class="btn btn-primary">step2</button> */}
             You will receive the final product, along with the documentation,
             source files, and support.
           </div>
+         
+          
         </div>
-        {/* <div className="d-flex align-items-center justify-content-start margin-contact  ">
-          <button
-            type=""
-            class="btn border btn-outline-color rounded-pill mt-2"
-          >
-            read more
-          </button>
-        </div> */}
       </div>
     </div>
   );
