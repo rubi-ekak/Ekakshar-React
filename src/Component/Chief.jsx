@@ -14,7 +14,7 @@ const Chief = () => {
             <div class="text-center">
             
               <img
-                src="/EkaksharImages/ChooseUs2.jpg"
+                src="/EkaksharImages/ChooseUs22.jpg"
                 alt="image"
                 className="rounded-2"
                 style={{ height: "23rem", width: "34rem" }}

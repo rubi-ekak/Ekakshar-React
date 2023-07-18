@@ -188,10 +188,10 @@ a{
     .carousel-inner{
         height:38rem;
        }
-       .image-shadow{
+       /* .image-shadow{
         height:38rem;
            
-        }
+        } */
         .text-allignment{
             text-align: justify;
             width:auto;
