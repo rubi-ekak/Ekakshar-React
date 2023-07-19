@@ -21,7 +21,7 @@ const Motiv = () => {
                 <p className="motive-text">let's work together</p>
                 <div className="d-flex align-items-center justify-content-center">
                   <div class="share d-flex align-items-center justify-content-center ">
-                    <span className="">Share</span>
+                    <span className="">connect with us</span>
                     <nav>
                       share
                       <a href="#">
