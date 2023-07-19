@@ -85,11 +85,15 @@ html,body{
   font-weight: normal;
 }
 .text-color{
-  color: #034C63;
+  color: #fff;
 }
 .btn-outline-color{
-  background-color: #0697C9;
+  background-color: #534f7e;
+  /* color: #fff; */
   /* border:2px solid #0D6667; */
+}
+.btn-text-color{
+  color: #fff;
 }
 
 .animate__delay-6s{
@@ -146,7 +150,7 @@ button:active {
   margin-top: -1px;
 }
 .bgcolor1{
-  background-color: #D5D3E8;
+  background-color: #fbe1bc;
 }
 .bgcolor2{
   background-color: #AEDBED;

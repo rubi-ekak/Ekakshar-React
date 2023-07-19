@@ -58,9 +58,9 @@ const Carousal = () => {
                   >
                     <a
                       href="https://ekak.in/"
-                      className="text-decoration-none text-dark"
+                      className="text-decoration-none btn-text-color"
                     >
-                      Join us
+                      Create your ideas
                     </a>
                     {/* <Icon icon="bx:chevron-up" rotate={3} width={"1.3rem"} /> */}
                   </button>
@@ -68,7 +68,7 @@ const Carousal = () => {
           </div>
           <div class="carousel-item">
             <img
-              src="/EkaksharImages/Bring Ideas to Life2.jpg"
+              src="/EkaksharImages/thisisengineering-raeng-xoCrMyMFt7s-unsplash1.jpg"
               class="d-block w-100  image-shadow"
               alt="..."
             />
@@ -88,9 +88,9 @@ const Carousal = () => {
                   >
                     <a
                       href="https://ekak.in/"
-                      className="text-decoration-none text-dark"
+                      className="text-decoration-none btn-text-color"
                     >
-                      Join us
+                      Solve now!
                     </a>
                     {/* <Icon icon="bx:chevron-up" rotate={3} width={"1.3rem"} /> */}
                   </button>
@@ -117,9 +117,9 @@ const Carousal = () => {
                   >
                     <a
                       href="https://ekak.in/"
-                      className="text-decoration-none text-dark"
+                      className="text-decoration-none btn-text-color"
                     >
-                      Join us
+                      Get designing
                     </a>
                     {/* <Icon icon="bx:chevron-up" rotate={3} width={"1.3rem"} /> */}
                   </button>
@@ -147,9 +147,9 @@ const Carousal = () => {
                   >
                     <a
                       href="https://ekak.in/"
-                      className="text-decoration-none text-dark"
+                      className="text-decoration-none btn-text-color"
                     >
-                      Join us
+                      Try Now
                     </a>
                     {/* <Icon icon="bx:chevron-up" rotate={3} width={"1.3rem"} /> */}
                   </button>

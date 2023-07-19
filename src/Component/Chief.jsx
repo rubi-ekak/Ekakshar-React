@@ -8,7 +8,7 @@ const Chief = () => {
       
       <div class="container-fluid box-padding">
       <h2 className="content-heading">
-                    Why Choose Us <span className="chief-txt"></span>
+      Why Us <span className="chief-txt"></span>
                   </h2>
         <div class="row"> 
 
@@ -30,9 +30,9 @@ const Chief = () => {
                 >
                   <a
                     href="https://ekak.in/"
-                    className="text-decoration-none text-dark"
+                    className="text-decoration-none btn-text-color"
                   >
-                    Join us
+                    Choose Us
                   </a>
                   {/* <Icon icon="bx:chevron-up" rotate={3} width={"1.3rem"} /> */}
                 </button>

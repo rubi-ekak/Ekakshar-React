@@ -3,7 +3,7 @@ import "./Motiv.css";
 
 const Motiv = () => {
   return (
-    <section className="main-padding bgcolor2">
+    <section className="main-padding btn-outline-color">
       <div className="box-padding">
         <div className="row">
           <div className="col">

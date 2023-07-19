@@ -132,9 +132,9 @@ const Journey = () => {
                 >
                   <a
                     href="https://ekak.in/"
-                    className="text-decoration-none text-dark"
+                    className="text-decoration-none btn-text-color"
                   >
-                    Start journey here
+                   Start Your Product Journey
                   </a>
                   {/* <Icon icon="bx:chevron-up" rotate={3} width={"1.3rem"} /> */}
                 </button>

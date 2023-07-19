@@ -43,7 +43,7 @@ const Award = () => {
                 >
                   <a
                     href="https://ekak.in/"
-                    className="text-decoration-none text-dark"
+                    className="text-decoration-none btn-text-color"
                   >
                     Join us
                   </a>
