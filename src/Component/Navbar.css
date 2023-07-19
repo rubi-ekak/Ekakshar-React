@@ -6,6 +6,9 @@
     padding-left: 2rem;
     padding-right: 2rem;
 }
+.nav-link{
+    cursor: pointer;
+}
 .bg-navbar{
     background-color: #D5D3E8;
 }

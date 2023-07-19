@@ -5,9 +5,9 @@ import { Icon } from "@iconify/react";
 const About = () => {
   return (
     <section className="main-padding bgcolor1" id="home">
+      <h2 className="content-heading">Welcome to Ekakshar</h2>
+      <div class="container-fluid box-padding ">
      
-      <div class="container-fluid box-padding">
-      
         <div class="row ">
        
           <div class="col p-0">
@@ -17,7 +17,7 @@ const About = () => {
               <div className="d-flex flex-column justify-content-between animate__animated animate__fadeInLeft p-0">
               
                 <div className="mr-4">
-                <h2 className="content-heading">Welcome to Ekakshar</h2>
+                
                   <p className=" formula-text para-family">
                     Ekakshar is our flagship product development service that
                     specializes in sustainable design practices. It is built on
@@ -34,7 +34,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div class="col d-flex align-items-center justify-content-start animate__animated animate__fadeInRight">
+          <div class="col d-flex align-items-center justify-content-end animate__animated animate__fadeInRight">
             <div class="text-center">
         
               <img
