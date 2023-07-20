@@ -62,7 +62,7 @@
     font-weight: 700;
     text-transform: uppercase;
     position: absolute;
-    left: 67.4%;
+    left: 68.4%;
     margin-left: -100px;
     opacity: 1;
     transition: opacity 0.3s ease-in-out;
@@ -104,9 +104,16 @@
 
 .share a:nth-child(3):hover {
     background-color: #433bb5;
+    
 }
 
-.share a:nth-child(4) {
+.share a:nth-child(3) {
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin-right: 0;
+}
+
+/* .share a:nth-child(4) {
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
     margin-right: 0;
@@ -114,7 +121,7 @@
 
 .share a:nth-child(4):hover {
     background-color: #000000;
-}
+} */
 
 .share:hover span,
 .share.hover span {

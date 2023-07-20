@@ -3,6 +3,7 @@ import "./Cardfooter.css";
 // import EastIcon from "@mui/icons-material/East";
 
 const Cardfooter = () => {
+ 
   return (
     <div >
       <div className=" main-container" >
@@ -30,21 +31,21 @@ const Cardfooter = () => {
                 <p className="motive-text text-center">let's work together</p>
                 <div className="d-flex align-items-center justify-content-center">
                   <div class="share d-flex align-items-center justify-content-center ">
-                    <span className="">connect with us</span>
+                    <span className="">connect us</span>
                     <nav>
                       share
-                      <a href="#">
+                      <a href=""target="_blank">
                         <i class="fa-brands fa-twitter"></i>
                       </a>
-                      <a href="#">
+                      <a href="https://www.facebook.com/EkakInn/"target="_blank">
                         <i class="fa-brands fa-facebook"></i>
                       </a>
-                      <a href="#">
+                      <a href="https://www.linkedin.com/company/ekakinn/?originalSubdomain=in" target="_blank">
                         <i class="fa-brands fa-linkedin-in"></i>
                       </a>
-                      <a href="#">
+                      {/* <a href="" target="_blank">
                       <i class="fa-regular fa-envelope"></i>
-                      </a>
+                      </a> */}
                     </nav>
                   </div>
                 </div>
