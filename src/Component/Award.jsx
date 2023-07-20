@@ -45,7 +45,7 @@ const Award = () => {
                     href="https://superlative-cascaron-35281e.netlify.app/"
                     className="text-decoration-none btn-text-color"
                   >
-                    Join us
+                    Create now
                   </a>
                   {/* <Icon icon="bx:chevron-up" rotate={3} width={"1.3rem"} /> */}
                 </button>

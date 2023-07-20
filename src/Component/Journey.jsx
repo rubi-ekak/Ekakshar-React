@@ -134,7 +134,7 @@ const Journey = () => {
                     href="https://superlative-cascaron-35281e.netlify.app/"
                     className="text-decoration-none btn-text-color"
                   >
-                   Start Your Product Journey
+                   Start  Product Journey
                   </a>
                   {/* <Icon icon="bx:chevron-up" rotate={3} width={"1.3rem"} /> */}
                 </button>

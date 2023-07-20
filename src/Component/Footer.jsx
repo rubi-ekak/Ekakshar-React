@@ -45,7 +45,7 @@ const Footer = () => {
               </ul>
             </div> */}
           </div>
-          <div class="share d-flex align-items-center justify-content-center">
+          {/* <div class="share d-flex align-items-center justify-content-center">
             <span className="">Share</span>
             <nav>
               share
@@ -59,10 +59,10 @@ const Footer = () => {
                 <i class="fa-brands fa-linkedin-in"></i>
               </a>
               <a href="#">
-                <i class="fa fa-github"></i>
+              <i class="fa-brands fa-envelope"></i>
               </a>
             </nav>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

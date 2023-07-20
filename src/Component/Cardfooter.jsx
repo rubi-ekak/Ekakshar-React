@@ -43,7 +43,7 @@ const Cardfooter = () => {
                         <i class="fa-brands fa-linkedin-in"></i>
                       </a>
                       <a href="#">
-                        <i class="fa fa-github"></i>
+                      <i class="fa-regular fa-envelope"></i>
                       </a>
                     </nav>
                   </div>
