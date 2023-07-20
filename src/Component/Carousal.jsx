@@ -87,7 +87,7 @@ const Carousal = () => {
                     class="btn btn-outline-color rounded-pill mt-4 animate__animated animate__bounce"
                   >
                     <a
-                      href="https://ekak.in/"
+                      href="https://superlative-cascaron-35281e.netlify.app/"
                       className="text-decoration-none btn-text-color"
                     >
                       Solve now!
@@ -116,7 +116,7 @@ const Carousal = () => {
                     class="btn btn-outline-color rounded-pill mt-4  animate__animated animate__bounce"
                   >
                     <a
-                      href="https://ekak.in/"
+                      href="https://superlative-cascaron-35281e.netlify.app/"
                       className="text-decoration-none btn-text-color"
                     >
                       Get designing
@@ -146,7 +146,7 @@ const Carousal = () => {
                     class="btn btn-outline-color rounded-pill mt-4 animate__animated animate__bounce"
                   >
                     <a
-                      href="https://ekak.in/"
+                      href="https://superlative-cascaron-35281e.netlify.app/"
                       className="text-decoration-none btn-text-color"
                     >
                       Try Now

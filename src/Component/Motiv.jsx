@@ -1,10 +1,12 @@
 import React from "react";
+import Cardfooter from "./Cardfooter";
 import "./Motiv.css";
 
 const Motiv = () => {
   return (
-    <section className="main-padding btn-outline-color">
-      <div className="box-padding">
+    <section className="">
+      <Cardfooter/>
+      {/* <div className="box-padding">
         <div className="row">
           <div className="col">
             <img
@@ -47,10 +49,10 @@ const Motiv = () => {
                 </div>
             </div>
 
-            {/* <span className='btn btn-bg-primary border rounded-pill fs-1 '>start</span> */}
+           
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

@@ -42,7 +42,7 @@ const Award = () => {
                   class="btn btn-outline-color rounded-pill w-25 animate__animated animate__bounce"
                 >
                   <a
-                    href="https://ekak.in/"
+                    href="https://superlative-cascaron-35281e.netlify.app/"
                     className="text-decoration-none btn-text-color"
                   >
                     Join us

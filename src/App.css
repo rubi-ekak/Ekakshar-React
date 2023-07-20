@@ -84,6 +84,13 @@ html,body{
     url("./fonts/calluna/Calluna-Regular.otf") format("otf");
   font-weight: normal;
 }
+
+@font-face {
+  font-family: "Gaoel";
+  src: local("Gaoel"),
+    url("./fonts/Gaoel/gaoel.ttf") format("ttf");
+  font-weight: normal;
+}
 .text-color{
   color: #fff;
 }
@@ -154,4 +161,8 @@ button:active {
 }
 .bgcolor2{
   background-color: #AEDBED;
+}
+html,
+body {
+  overflow-x: hidden;
 }

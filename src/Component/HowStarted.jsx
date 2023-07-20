@@ -84,7 +84,9 @@ const HowStarted = () => {
           </div>
           
           <div class="position-absolute  start-100 translate-middle">
-          <button type="button" class="btn btn-outline-color btn-text-color">Start Now</button>
+          <button type="button" class="btn btn-outline-color btn-text-color">
+            <a href="https://superlative-cascaron-35281e.netlify.app/">Start Now</a>
+            </button>
           </div>
           <div className=" mt-4">
             <h5> Enjoy the results</h5>

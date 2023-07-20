@@ -30,19 +30,7 @@ a {
     border-radius: 80px;
 } */
 
-.share span {
-    width: 200px;
-    line-height: 80px;
-    display: inline-block;
-    font-weight: 700;
-    text-transform: uppercase;
-    position: absolute;
-    left: 71.5%;
-    margin-left: -100px;
-    opacity: 1;
-    transition: opacity 0.3s ease-in-out;
-    pointer-events: none;
-}
+/* / */
 
 .share nav {
     font-size: 0;
@@ -53,8 +41,8 @@ a {
     width: 80px;
     text-align: center;
     display: inline-block;
-    background-color: #0697C9;
-    color: #ffffff;
+    /* background-color: #0697C9; */
+    /* color: #ffffff; */
     overflow: hidden;
     opacity: 1;
     transition: all 0.3s ease-in-out;
@@ -80,7 +68,7 @@ a {
     background-color: #433bb5;
 }
 
-.share a:nth-child(4) {
+/* .share a:nth-child(4) {
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
     margin-right: 0;
@@ -88,7 +76,7 @@ a {
 
 .share a:nth-child(4):hover {
     background-color: #000000;
-}
+} */
 
 .share:hover span,
 .share.hover span {

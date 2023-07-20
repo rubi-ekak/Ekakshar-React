@@ -17,6 +17,8 @@ import NestedSelect from "./Component/NestedSelect";
 import Example from "./Component/Example";
 import Journey from "./Component/Journey";
 import HowStarted from "./Component/HowStarted";
+import Navbar2 from "./Component/Navbar2";
+import Cardfooter from "./Component/Cardfooter";
 // import Multileveldropdown from "./Component/Multileveldropdown";
 // import Aboutservice from './Component/Aboutservice';
 
@@ -46,6 +48,7 @@ function App() {
     {/* <Form/> */}
     
 {/* <HowStarted/> */}
+{/* <Cardfooter/> */}
     </div>
   );
 }

@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-navbar fixed-top ">
       <div className="container-fluid">
-        <a className="navbar-brand text-color brand-style" href="#">
+        <a className="navbar-brand  brand-style" href="#">
           Ekakshar
         </a>
         <button
@@ -26,8 +26,8 @@ const Navbar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul className="navbar-nav  mb-2 mb-lg-0 ms-auto undorder-list  p-2 bd-highligh">
+        <div className="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+          <ul className="navbar-nav  mb-2 d-flex justify-content-end align-items-end undorder-list  p-2 bd-highligh">
             <li className="nav-item px-2 text-color">
               <Link
                 activeClass="active"
@@ -134,3 +134,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+

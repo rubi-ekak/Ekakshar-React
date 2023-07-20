@@ -1,0 +1,288 @@
+.main-container .short-img{
+    background: url(/public/togetherWork.jpg);
+    min-height: 250px;
+    background-position: center;
+    /* background-position: 50%; */
+    width: 40%;
+    background-size: cover;
+   background-repeat: no-repeat;  
+   clip-path: polygon(0 0,100% 0,75% 100%,0 100%);
+  
+   -webkit-clip-path: polygon(0 0,100% 0,75% 100%,0 100%);
+  
+  }
+  .main-container .newshort-container{
+    display: flex;
+    align-items: center;
+    background:#534F7E;
+    height: 250px;
+  }
+  .main-container .newshort-container .short-img .short-img-bg{
+    height:100% ;
+    min-height: 250px;
+    background:  #7D77BC;
+    clip-path: polygon(95% 0,100% 0,75% 100%, 70% 100%);
+    -webkit-clip-path:polygon(95% 0,100% 0,75% 100%, 70% 100%);
+  }
+  .short-content .short-information {
+    color: #ffff;
+    width:85%;
+  }
+  .short-content{
+    width: 60%;
+    /* padding: 1.5rem; */
+    
+   
+  }
+  .show-information{
+    background: transparent;
+    color: #fff;
+    
+  }
+  .arr-short{
+    margin-left: 1rem;
+  }
+  .short-head{
+    margin-left: 1rem;
+    font-family:'Gilroy-Bold';
+    font-weight: 600;
+  }
+  .short-information .short-content-para{
+    font-family: "Calluna-Regular"!important;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-left: 1.5rem;
+    
+  }
+
+  .share span {
+    width: 200px;
+    line-height: 80px;
+    display: inline-block;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    left: 67.4%;
+    margin-left: -100px;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+    color: #433bb5;
+}
+
+.share nav {
+    font-size: 0;
+}
+
+.share a {
+    line-height: 80px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    background-color: #fbe1bc;
+    color: #433bb5;
+    overflow: hidden;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    margin: 0 -20px;
+    box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.share a:nth-child(1) {
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-left: 0;
+}
+
+.share a:nth-child(1):hover {
+    background-color: #61c5ec;
+}
+
+.share a:nth-child(2):hover {
+    background-color: #3B5998;
+}
+
+.share a:nth-child(3):hover {
+    background-color: #433bb5;
+}
+
+.share a:nth-child(4) {
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-right: 0;
+}
+
+.share a:nth-child(4):hover {
+    background-color: #000000;
+}
+
+.share:hover span,
+.share.hover span {
+    opacity: 0;
+}
+
+.share:hover a,
+.share.hover a {
+    border-radius: 50%;
+    margin: 0 10px;
+    color: #f1ce64;
+    font-size: 28px;
+}
+
+.share:hover a:hover,
+.share.hover a:hover {
+    color: #fff;
+}
+
+
+
+
+  @media (min-width:320px) and (max-width:480px){
+    .main-container .short-img{
+      min-height:150px;
+      background-position: 50%;
+      width:35%;
+      background-size: cover;
+     background-repeat: no-repeat;  
+     clip-path: polygon(0 0,100% 0,75% 100%,0 100%);
+    
+     -webkit-clip-path: polygon(0 0,100% 0,75% 100%,0 100%);
+    
+    }
+    .main-container .newshort-container{
+      display: flex;
+      align-items: center;
+      /* background: #0D6667; */
+      height: 150px;
+    }
+    .main-container .newshort-container .short-img .short-img-bg{
+      height:100% ;
+      min-height:150px;
+     
+      clip-path: polygon(95% 0,100% 0,75% 100%, 70% 100%);
+      -webkit-clip-path:polygon(95% 0,100% 0,75% 100%, 70% 100%);
+    }
+    .short-content .short-information {
+      color: #ffff;
+      width:95%;
+    }
+    .short-information .short-content-para{
+      font-family: "Calluna-Regular"!important;
+      font-size: 0.5rem;
+      text-align: justify;
+      
+    }
+    .short-content{
+      width: 80%;
+      /* padding: 1rem; */
+      padding-right: 0.5rem;
+      padding-left:0.5rem;
+      padding-top: 0.5rem;
+      padding-bottom: 1rem;
+      height: 11rem;
+     
+    }
+  .line{
+    width: 40%;
+  }
+    .short-head{
+      font-size: 1rem;
+      margin-left: 1rem;
+      font-family:'Gilroy-Bold';
+      font-weight: 600;
+    }
+  }
+  
+  @media (min-width:481px) and (max-width:768px){
+    .main-container .short-img{
+      min-height:140px;
+      background-position: 50%;
+      width:35%;
+      background-size: cover;
+     background-repeat: no-repeat;  
+     clip-path: polygon(0 0,100% 0,75% 100%,0 100%);
+    
+     -webkit-clip-path: polygon(0 0,100% 0,75% 100%,0 100%);
+    
+    }
+    .main-container .newshort-container{
+      display: flex;
+      align-items: center;
+      /* background: #0D6667; */
+      height: 140px;
+    }
+    .main-container .newshort-container .short-img .short-img-bg{
+      height:100% ;
+      min-height:140px;
+     
+      clip-path: polygon(95% 0,100% 0,75% 100%, 70% 100%);
+      -webkit-clip-path:polygon(95% 0,100% 0,75% 100%, 70% 100%);
+    }
+    .short-content .short-information {
+      color: #ffff;
+      width:100%;
+    }
+    .short-information .short-content-para{
+      font-family: "Calluna-Regular"!important;
+      font-size: 0.6rem;
+      text-align: justify;
+      
+    }
+    .short-content{
+      width: 80%;
+      /* padding: 1rem; */
+      padding-right: 0.5rem;
+      padding-left:0.5rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0rem;
+      height: 11rem;
+      margin-top: 1rem;
+     
+    }
+    .short-head{
+      font-size:0.9rem;
+      margin-left: 1rem;
+      font-family:'Gilroy-Bold';
+      font-weight: 600;
+    }
+  }
+  @media (min-width:769px) and (max-width:1090px){
+    .short-information .short-content-para {
+      font-family: "Calluna-Regular"!important;
+      font-size: 1rem;
+      text-align: justify;
+  }
+  
+  }
+  @media (min-width:1091px) and (max-width:1366px){
+    .short-information .short-content-para {
+      font-family: "Calluna-Regular"!important;
+      font-size: 1.2rem;
+      text-align: justify;
+  
+  
+  }
+  .main-container .short-img{
+      min-height:160px;
+      background-position: 50%;
+      width:35%;
+      background-size: cover;
+     background-repeat: no-repeat;  
+     clip-path: polygon(0 0,100% 0,75% 100%,0 100%);
+    
+     -webkit-clip-path: polygon(0 0,100% 0,75% 100%,0 100%);
+    
+    }
+    .short-content{
+      width: 80%;
+      /* padding: 1rem; */
+      padding-right: 0.5rem;
+      padding-left:0.5rem;
+      /* padding-top: 0.5rem; */
+      padding-bottom: 0rem;
+      /* height: 2rem; */
+      /* margin-top: 1rem;
+      */
+    }
+    
+  }

@@ -1,5 +1,5 @@
 .undorder-list {
-    margin-right: 18rem;
+    /* margin-right: 18rem; */
     line-height: 2rem;
 }
 .navbar{
@@ -27,8 +27,7 @@
     transition: all linear ease-in 2s;
 }
 .navbar-brand{
-    color: #fff;
+    color: #fff!important;
+    font-family:"Gaoel"!important;
 }
-.navbar-brand:hover{
-    color:none;
-}
+

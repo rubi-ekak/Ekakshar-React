@@ -11,11 +11,13 @@
     left:20
 }
 .bgbuttoncolor{
-  background-color: #D5D3E8;
+  background-color: #534f7e;
+  color:#fff;
   z-index: 200;
 }
 .bgbuttoncolor:hover{
-  background-color:#D5D3E8 ;
+  background-color:#534f7e ;
+  color:#fff;
 }
 .margin-contact {
   margin-left: 4rem;
@@ -26,4 +28,8 @@
 .start-100{
   left: 166%!important;
   
+}
+a{
+  text-decoration: none!important;
+  color: #fff!important;
 }
