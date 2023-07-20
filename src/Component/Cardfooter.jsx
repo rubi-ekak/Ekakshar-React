@@ -34,7 +34,7 @@ const Cardfooter = () => {
                     <span className="">connect us</span>
                     <nav>
                       share
-                      <a href=""target="_blank">
+                      <a href="https://twitter.com/ekak1nn"target="_blank">
                         <i class="fa-brands fa-twitter"></i>
                       </a>
                       <a href="https://www.facebook.com/EkakInn/"target="_blank">
