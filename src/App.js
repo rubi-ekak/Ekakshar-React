@@ -5,6 +5,8 @@ import "./App.css";
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 import Form from "./Component/Form";
 import Mainpage from "./Component/Mainpage";
+import SuccessMessage from "./Component/SuccessMessage";
+import Ekaksharform from "./Component/Ekaksharform";
 
 
 // import Multileveldropdown from "./Component/Multileveldropdown";
@@ -16,7 +18,9 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Mainpage/>}></Route>
-        <Route path="/Ekakshar-product-form" element={<Form/>}></Route>
+        <Route path="/Ekakshar-product-form" element={<Ekaksharform/>}></Route>
+        <Route path="/Ekakshar-product-success" element={<SuccessMessage/>}></Route>
+        
        
       </Routes>
       

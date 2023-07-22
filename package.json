@@ -24,6 +24,7 @@
     "react-gantt": "^2.1.8",
     "react-multi-select-component": "^4.3.4",
     "react-multilevel-dropdown": "^4.0.0",
+    "react-phone-input-2": "^2.15.1",
     "react-router-dom": "^6.14.2",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
