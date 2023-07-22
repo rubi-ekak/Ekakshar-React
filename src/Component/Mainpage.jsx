@@ -16,30 +16,21 @@ import Timelineproduct from "./Timelineproduct";
 import Team from "./Team";
 import Journey from "./Journey";
 import Carousal from "./Carousal";
+import Navbar from "./Navbar";
 
 const Mainpage = () => {
   return (
     <div>
-      {/* <Frontsection /> */}
-      <Carousal/>
+      <Navbar/>
+      <Carousal />
       <About />
-      {/* <Aboutservice/> */}
+
       <Journey />
       <Award />
       <Chief />
-      {/* <Aboutcareer/> */}
-      
 
-      {/* <Service/> */}
-      {/* <Cards1/> */}
-
-      
-      {/* <Values /> */}
-      
-
-      {/* <Industry /> */}
       <Timelineproduct />
-      {/* <Team /> */}
+
       <Motiv />
     </div>
   );

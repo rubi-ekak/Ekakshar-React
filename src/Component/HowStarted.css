@@ -33,3 +33,29 @@ a{
   text-decoration: none!important;
   color: #fff!important;
 }
+.box-1{
+  height: 11.5rem;
+  width:50rem
+}
+
+.hows-text-para{
+  font-family: "Calluna-Regular";
+    font-size: 14px;
+    text-align: justify;
+}
+
+@media (min-width:320px) and (max-width:480px){
+  .box-1{
+    height: 7rem;
+    width:20rem
+  }
+  h5{
+    font-size: 10px;
+  }
+
+  .hows-text-para{
+    font-family: "Calluna-Regular";
+      font-size: 8px;
+      text-align:left;
+  }
+}

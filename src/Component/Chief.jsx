@@ -12,21 +12,21 @@ const Chief = () => {
                   </h2>
         <div class="row"> 
 
-          <div class="col d-flex justify-content-start animate__delay-7s animate__animated animate__fadeInRight">
+          <div class="col-md-6 col-sm-6 d-flex justify-content-start animate__delay-7s animate__animated animate__fadeInRight">
          
             <div class="text-center">
             
               <img
                 src="/EkaksharImages/ChooseUs22.jpg"
                 alt="image"
-                className="rounded-2"
+                className="rounded-2 img-fluid"
                 style={{ height: "23rem", width: "34rem" }}
               />
 
               <div className="button-margin">
                 <button
                   type="button"
-                  class="btn btn-outline-color rounded-pill w-25 animate__animated animate__bounce"
+                  class="btn btn-outline-color rounded-pill width-button animate__animated animate__bounce"
                 >
                   <a
                     href="https://superlative-cascaron-35281e.netlify.app/"
@@ -53,7 +53,7 @@ const Chief = () => {
             </div>
           </div>
           
-          <div class="col animate__delay-7s animate__fadeInLeft animate__animated">
+          <div class="col-md-6 col-sm-6 animate__delay-7s animate__fadeInLeft animate__animated">
           
             <div class="">
            

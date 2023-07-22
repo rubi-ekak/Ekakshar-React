@@ -8,7 +8,7 @@ const About = () => {
       <h2 className="content-heading">Welcome to Ekakshar</h2>
       <div class="container-fluid box-padding ">
         <div class="row ">
-          <div class="col p-0">
+          <div class="col-md-6 col-sm-12 p-0">
             <div class="">
               <div className="d-flex flex-column justify-content-between animate__animated animate__fadeInLeft p-0">
                 <div className="mr-4">
@@ -32,12 +32,12 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div class="col d-flex align-items-center justify-content-end animate__animated animate__fadeInRight">
+          <div class="col-md-6 col-sm-12 d-flex align-items-center justify-content-end animate__animated animate__fadeInRight wel-image">
             <div class="text-center">
               <img
                 src="/EkaksharImages/Ekaksharimage.jpg"
                 alt="image"
-                className="rounded-2 about-image"
+                className="rounded-2 about-image img-fluid"
                 style={{ height: "23rem", width: "34rem" }}
               />
               {/* <h2>Service Formula</h2>

@@ -6,3 +6,10 @@
     font-size: 14px;
     color:rgb(139, 139, 136)
 }
+@media (min-width:320px) and (max-width:480px){
+    .button-margin{
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+
+}

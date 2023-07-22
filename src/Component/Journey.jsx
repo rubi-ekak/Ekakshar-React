@@ -128,7 +128,7 @@ const Journey = () => {
         <div className="button-margin">
                 <button
                   type="button"
-                  class="btn btn-outline-color rounded-pill w-25 animate__animated animate__bounce"
+                  class="btn btn-outline-color rounded-pill width-button animate__animated animate__bounce"
                 >
                   <a
                     href="https://superlative-cascaron-35281e.netlify.app/"

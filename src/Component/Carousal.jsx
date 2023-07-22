@@ -1,9 +1,20 @@
 import React from "react";
 import "./Carousal.css";
+import { useNavigate } from "react-router-dom";
 
 const Carousal = () => {
+  const navigate = useNavigate();
+
+
+const navigateform=()=>{
+  navigate('/Ekakshar-product-form')
+}
+
+
+
+
   return (
-    <div id="home" className="mt-4">
+    <div id="home" className="margin-carousel-top">
       <div
         id="carouselExampleCaptions"
         class="carousel slide"
@@ -55,13 +66,15 @@ const Carousal = () => {
               <button
                     type="button"
                     class="btn btn-outline-color rounded-pill mt-4 animate__animated animate__bounce"
+                    onClick={navigateform}
                   >
-                    <a
+                    Create your ideas
+                    {/* <a
                       href="https://superlative-cascaron-35281e.netlify.app/"
                       className="text-decoration-none btn-text-color"
                     >
                       Create your ideas
-                    </a>
+                    </a> */}
                     {/* <Icon icon="bx:chevron-up" rotate={3} width={"1.3rem"} /> */}
                   </button>
             </div>
@@ -143,7 +156,7 @@ const Carousal = () => {
               </p>
               <button
                     type="button"
-                    class="btn btn-outline-color rounded-pill mt-4 animate__animated animate__bounce"
+                    class="btn btn-outline-color rounded-pill margin-carousel animate__animated animate__bounce"
                   >
                     <a
                       href="https://superlative-cascaron-35281e.netlify.app/"

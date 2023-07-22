@@ -14,3 +14,14 @@
     border-radius: 50%;
     transform: rotate(-15deg);
   }
+  .margin-cocreate-image{
+    margin-top: 0rem;
+  }
+
+  @media (min-width:320px) and (max-width:480px){
+    .margin-cocreate-image{
+      margin-top: 2rem;
+      padding: 0;
+    }
+
+  }

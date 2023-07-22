@@ -1,9 +1,28 @@
 .about-image{
      filter: hue-rotate(200deg);
      filter:brightness(-80)
+
 }
 .para-family{
      font-family:"Calluna-Regular" ;
      font-size: 18px;
      text-align: justify;
+ }
+
+ .wel-image{
+     padding: 0;
+ }
+
+ @media (min-width:320px) and (max-width:480px){
+
+     .para-family{
+          font-family:"Calluna-Regular" ;
+          font-size: 12px;
+          text-align: justify;
+      }
+      .wel-image{
+          padding: 0;
+      }
+
+
  }

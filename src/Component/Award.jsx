@@ -7,7 +7,7 @@ const Award = () => {
        <h2 className="content-heading">Co-create with Ekakshar</h2>
       <div class="container-fluid box-padding">
         <div class="row ">
-          <div class="col p-0">
+          <div class="col-md-6 col-sm-12 p-0">
             <div class="">
               <div className="d-flex flex-column justify-content-between">
                 <div className="mr-4">
@@ -39,7 +39,7 @@ const Award = () => {
                 <div className="d-flex align-items-center justify-content-center">
                 <button
                   type="button"
-                  class="btn btn-outline-color rounded-pill w-25 animate__animated animate__bounce"
+                  class="btn btn-outline-color rounded-pill width-button animate__animated animate__bounce"
                 >
                   <a
                     href="https://superlative-cascaron-35281e.netlify.app/"
@@ -66,14 +66,14 @@ const Award = () => {
               </div>
             </div>
           </div>
-          <div class="col d-flex align-items-center justify-content-end">
+          <div class="col-md-6 col-sm-12 d-flex align-items-center justify-content-end margin-cocreate-image">
             <div className="d-flex align-items-center">
               {/* <div className="oval"></div> */}
               <div>
                 <img
                   src="/EkaksharImages/Co-CreatewithEkakshar.jpg"
                   style={{ height: "23rem", width: "34rem" }}
-                  className="rounded-3"
+                  className="rounded-3 img-fluid"
                 ></img>
               </div>
             </div>
