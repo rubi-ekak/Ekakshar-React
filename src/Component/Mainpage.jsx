@@ -20,8 +20,11 @@ import Navbar from "./Navbar";
 
 const Mainpage = () => {
   return (
-    <div>
-      <Navbar/>
+    <section>
+<Navbar/>
+   
+    
+      
       <Carousal />
       <About />
 
@@ -32,7 +35,8 @@ const Mainpage = () => {
       <Timelineproduct />
 
       <Motiv />
-    </div>
+  
+    </section>
   );
 };
 
