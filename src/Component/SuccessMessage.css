@@ -27,3 +27,24 @@
         stroke-dashoffset: 0
     }
 }
+.padding-form-content{
+    padding: 3rem;
+}
+.pddd{
+    padding: 3rem;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .animated-check {
+        height: 3rem;
+        width: 9rem
+    }
+    .padding-form-content{
+        padding: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 4rem;
+    }
+    .pddd{
+        padding: 1.5rem;
+    }
+}

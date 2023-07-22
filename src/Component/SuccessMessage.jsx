@@ -15,9 +15,9 @@ const handleClick=()=>{
   return (
     <div className=''>
       <div class="vh-100 d-flex justify-content-center align-items-center">
-            <div class="col-md-5">
+            <div class="col-md-5 col-sm-2 padding-form-content">
                 <div class="border border-3 border-success"></div>
-                <div class="card  bg-white shadow p-5">
+                <div class="card  bg-white shadow  pddd ">
                     <div class="mb-4 text-center wrapper">
                     {/* <Icon icon="mingcute:check-fill"  className='text-success animated-check'/> */}
                     
@@ -31,7 +31,7 @@ const handleClick=()=>{
                     </div>
                     <div class="text-center">
                         <h1>Thank You !</h1>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste ducimus facere accusamus, eaque laudantium molestias corporis pariatur sapiente eos alias omnis, distinctio voluptatum?? </p>
+                        <p>We have received your message.Someone from our team will contact you soon  </p>
                         <button class="btn btn-outline-success" onClick={handleClick}>Back Home</button>
                     </div>
                 </div>

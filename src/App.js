@@ -26,7 +26,7 @@ function App() {
             element={<SuccessMessage />}
           ></Route>
         </Routes>
-       
+        <SuccessMessage />
       </BrowserRouter>
     </div>
   );
