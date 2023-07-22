@@ -471,13 +471,13 @@ console.log(inputphone)
   return (
     <div className="d-flex align-items-center justify-content-center  form-background padding-vertically">
       <div
-        className="bg-form-color form-padding rounded-2 form-shadow "
-        style={{ width: "75%" }}
+        className="bg-form-color form-padding rounded-2 form-shadow form-width"
+        
       >
         <div>
           <h4 className="text-center">Ekakshar Contact form</h4>
         </div>
-        <form  ref={form} class="row g-3" onSubmit={handlesubmit} >
+        <form  ref={form} class="row g-2" onSubmit={handlesubmit} >
           <div class="col-md-6">
             <label for="inputName" class="form-label">
               Full Name
