@@ -1,8 +1,13 @@
 import React from "react";
 import "./Chief.css";
 import { Icon } from "@iconify/react";
+import { useNavigate } from "react-router-dom";
 
 const Chief = () => {
+  const navigate=useNavigate();
+  const handleformchoose=()=>{
+    navigate('/Ekakshar-product-form')
+  }
   return (
     <section className="main-padding bgcolor2" id="whychoose">
       
@@ -26,14 +31,15 @@ const Chief = () => {
               <div className="button-margin">
                 <button
                   type="button"
-                  class="btn btn-outline-color rounded-pill width-button animate__animated animate__bounce"
+                  class="btn btn-outline-color rounded-pill text-decoration-none btn-text-color width-button animate__animated animate__bounce"
+                  onClick={handleformchoose}
                 >
-                  <a
+                  {/* <a
                     href="https://superlative-cascaron-35281e.netlify.app/"
                     className="text-decoration-none btn-text-color"
-                  >
+                  > */}
                     Choose Us
-                  </a>
+                  {/* </a> */}
                   {/* <Icon icon="bx:chevron-up" rotate={3} width={"1.3rem"} /> */}
                 </button>
 

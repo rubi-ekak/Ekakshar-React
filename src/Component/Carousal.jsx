@@ -63,9 +63,11 @@ const navigateform=()=>{
                 Create customized products that are quick, easy, and
                 sustainable. Let us help you turn your imagination into reality!
               </p>
+
+              <div className="car-button">
               <button
                     type="button"
-                    class="btn btn-outline-color rounded-pill mt-4 animate__animated animate__bounce"
+                    class="btn btn-outline-color rounded-pill margin-button animate__animated animate__bounce text-decoration-none btn-text-color"
                     onClick={navigateform}
                   >
                     Create your ideas
@@ -77,6 +79,7 @@ const navigateform=()=>{
                     </a> */}
                     {/* <Icon icon="bx:chevron-up" rotate={3} width={"1.3rem"} /> */}
                   </button>
+                  </div>
             </div>
           </div>
           <div class="carousel-item">
@@ -95,18 +98,21 @@ const navigateform=()=>{
                 services. Let us help you streamline your operations and achieve
                 success.
               </p>
+              <div className="car-button">
               <button
                     type="button"
-                    class="btn btn-outline-color rounded-pill mt-4 animate__animated animate__bounce"
+                    class="btn btn-outline-color rounded-pill margin-button animate__animated animate__bounce text-decoration-none btn-text-color"
+                    onClick={navigateform}
                   >
-                    <a
+                    {/* <a
                       href="https://superlative-cascaron-35281e.netlify.app/"
                       className="text-decoration-none btn-text-color"
-                    >
+                    > */}
                       Solve now!
-                    </a>
+                    {/* </a> */}
                     {/* <Icon icon="bx:chevron-up" rotate={3} width={"1.3rem"} /> */}
                   </button>
+                  </div>
             </div>
           </div>
           <div class="carousel-item">
@@ -124,18 +130,21 @@ const navigateform=()=>{
                 just 5 working days, all at an affordable rate. Let us help you
                 bring your designs to life quickly and cost- effectively.
               </p>
+              <div className="car-button">
               <button
                     type="button"
-                    class="btn btn-outline-color rounded-pill mt-4  animate__animated animate__bounce"
+                    class="btn btn-outline-color text-decoration-none btn-text-color rounded-pill margin-button  animate__animated animate__bounce"
+                    onClick={navigateform}
                   >
-                    <a
+                    {/* <a
                       href="https://superlative-cascaron-35281e.netlify.app/"
                       className="text-decoration-none btn-text-color"
-                    >
+                    > */}
                       Get designing
-                    </a>
+                    {/* </a> */}
                     {/* <Icon icon="bx:chevron-up" rotate={3} width={"1.3rem"} /> */}
                   </button>
+                  </div>
             </div>
           </div>
           <div class="carousel-item">
@@ -154,18 +163,22 @@ const navigateform=()=>{
                 assets or inventory. Let us help you scale up production and
                 deliver your products to market.
               </p>
+              <div className="car-button">
               <button
                     type="button"
-                    class="btn btn-outline-color rounded-pill margin-carousel animate__animated animate__bounce"
+                    class="btn btn-outline-color text-decoration-none btn-text-color rounded-pill margin-carousel margin-button animate__animated animate__bounce"
+                    onClick={navigateform}
                   >
-                    <a
+                    {/* <a
                       href="https://superlative-cascaron-35281e.netlify.app/"
                       className="text-decoration-none btn-text-color"
-                    >
+                    > */}
                       Try Now
-                    </a>
+                    {/* </a> */}
                     {/* <Icon icon="bx:chevron-up" rotate={3} width={"1.3rem"} /> */}
                   </button>
+              </div>
+              
             </div>
           </div>
         </div>

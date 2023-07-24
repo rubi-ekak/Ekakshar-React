@@ -45,8 +45,6 @@ a{
 }
 .padding-box{
     padding: 1.5rem;
-
-
 }
 
 .carousel-control-prev-icon {
@@ -65,9 +63,26 @@ a{
 .margin-carousel{
     margin-top: 2rem;
 }
+
+.margin-button{
+    margin-top: 2rem;
+   
+}
+
+.car-button{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
  /* for mobile view */
 
 @media (min-width:320px) and (max-width:480px){
+    .car-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .carousel-inner{
         height:27rem;
        }
@@ -120,7 +135,13 @@ a{
     }
     .margin-carousel{
         margin-top: 0.5rem;
+        margin-right: 0.5rem;
     }
+    .margin-button{
+        margin-top: 2rem;
+        
+    }
+
 }
  /* for tablet view */
 @media (min-width:481px) and (max-width:768px){

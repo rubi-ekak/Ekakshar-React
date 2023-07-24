@@ -58,4 +58,8 @@
   .nabar-toggler{
     margin-right:2rem;
   }
+  .navbar-brand {
+    color: #fff !important;
+    font-family: "Gaoel" !important;
+  }
 }

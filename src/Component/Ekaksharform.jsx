@@ -178,7 +178,7 @@ console.log(inputphone)
       // emailjs.setSubject("Date "+date);
       console.log("form submitted");
       optionresult=0
-      navigate("/success");
+      navigate("/Ekakshar-product-success");
     }else if(Object.keys(formErrors).includes(
       "product_name",
       "height",
@@ -221,7 +221,7 @@ console.log(inputphone)
         )
         
 
-        navigate("/success");
+        navigate("/Ekakshar-product-success");
       } 
       else if (
         Object.keys(formErrors).includes("other") &&
@@ -250,7 +250,7 @@ console.log(inputphone)
           }
 
         )
-        navigate("/success");
+        navigate("/Ekakshar-product-success");
       } else {
         console.log("not submitted");
       }

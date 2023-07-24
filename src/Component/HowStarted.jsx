@@ -1,7 +1,13 @@
 import React from "react";
 import "./HowStarted.css";
+import { useNavigate } from "react-router-dom";
 
 const HowStarted = () => {
+
+  const navigate=useNavigate();
+  const handleformgetstart=()=>{
+    navigate('/Ekakshar-product-form')
+  }
   return (
     <div>
       <div className="d-flex flex-column align-items-center mt-4">
@@ -89,8 +95,8 @@ const HowStarted = () => {
           </div>
           
           <div class="position-absolute  start-100 translate-middle">
-          <button type="button" class="btn btn-outline-color btn-text-color btn-sm" >
-            <a href="https://superlative-cascaron-35281e.netlify.app/">Start Now</a>
+          <button type="button" class="btn btn-outline-color btn-text-color btn-sm"  onClick={handleformgetstart}>
+            {/* <a href="https://superlative-cascaron-35281e.netlify.app/">Start Now</a> */}Start Now
             </button>
           </div>
           <div className=" mt-4">

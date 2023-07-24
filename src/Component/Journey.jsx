@@ -1,8 +1,17 @@
 import React from "react";
 import "./Journey.css";
 import { Icon } from "@iconify/react";
+import { useNavigate } from "react-router-dom";
 
 const Journey = () => {
+  const navigate=useNavigate()
+
+const handlejourney=()=>{
+  navigate('/Ekakshar-product-form')
+}
+
+
+
   return (
     <div className="main-padding bgcolor2" id="journey">
       <h2 className="content-heading">Product Journey</h2>
@@ -128,14 +137,16 @@ const Journey = () => {
         <div className="button-margin">
                 <button
                   type="button"
-                  class="btn btn-outline-color rounded-pill width-button animate__animated animate__bounce"
+                  class="btn btn-outline-color rounded-pill text-decoration-none btn-text-color width-button animate__animated animate__bounce"
+
+                  onClick={handlejourney}
                 >
-                  <a
+                  {/* <a
                     href="https://superlative-cascaron-35281e.netlify.app/"
                     className="text-decoration-none btn-text-color"
-                  >
+                  > */}
                    Start  Product Journey
-                  </a>
+                  {/* </a> */}
                   {/* <Icon icon="bx:chevron-up" rotate={3} width={"1.3rem"} /> */}
                 </button>
 

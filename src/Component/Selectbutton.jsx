@@ -28,6 +28,7 @@ const Selectbutton = ({setSelectedValue}) => {
         selected={false}
         onChange={setSelected}
         labelledBy="Select"
+        hasSelectAll={false}
         // className="position-fixed flex-1"
       />
     </div>

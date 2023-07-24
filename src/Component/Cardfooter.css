@@ -1,6 +1,6 @@
 .main-container .short-img{
     background: url(/public/togetherWork.jpg);
-    min-height: 250px;
+    min-height: 200px;
     background-position: center;
     /* background-position: 50%; */
     width: 40%;
@@ -151,13 +151,16 @@
 
 
   @media (min-width:320px) and (max-width:480px){
+
+
+    
     .motive-text{
       font-size:1.2rem;
       padding-left: 1.5rem;
       padding-right: 1.5rem;
     }
     .main-container .short-img{
-      min-height:150px;
+      min-height:120px;
       background-position: 50%;
       width:35%;
       background-size: cover;
@@ -175,7 +178,7 @@
     }
     .main-container .newshort-container .short-img .short-img-bg{
       height:100% ;
-      min-height:150px;
+      min-height:120px;
      
       clip-path: polygon(95% 0,100% 0,75% 100%, 70% 100%);
       -webkit-clip-path:polygon(95% 0,100% 0,75% 100%, 70% 100%);
