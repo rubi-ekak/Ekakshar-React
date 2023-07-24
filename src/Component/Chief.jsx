@@ -24,8 +24,8 @@ const Chief = () => {
               <img
                 src="/EkaksharImages/ChooseUs22.jpg"
                 alt="image"
-                className="rounded-2 img-fluid"
-                style={{ height: "23rem", width: "34rem" }}
+                className="rounded-2 img-fluid Ekakshar-image"
+            
               />
 
               <div className="button-margin">

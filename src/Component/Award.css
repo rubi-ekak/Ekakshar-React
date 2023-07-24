@@ -17,11 +17,17 @@
   .margin-cocreate-image{
     margin-top: 0rem;
   }
-
+  .Ekakshar-image{
+    height:23rem;
+    width:34rem;
+  }
   @media (min-width:320px) and (max-width:480px){
     .margin-cocreate-image{
       margin-top: 2rem;
       padding: 0;
     }
-
+    .Ekakshar-image{
+      height:auto;
+      width:34rem;
+    }
   }

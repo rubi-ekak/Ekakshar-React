@@ -72,9 +72,10 @@ const Award = () => {
               <div>
                 <img
                   src="/EkaksharImages/Co-CreatewithEkakshar.jpg"
-                  style={{ height: "23rem", width: "34rem" }}
-                  className="rounded-3 img-fluid"
+                 
+                  className="rounded-3 img-fluid Ekakshar-image" 
                 ></img>
+               
               </div>
             </div>
           </div>

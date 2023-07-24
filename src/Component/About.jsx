@@ -37,9 +37,10 @@ const About = () => {
               <img
                 src="/EkaksharImages/Ekaksharimage.jpg"
                 alt="image"
-                className="rounded-2 about-image img-fluid"
-                style={{ height: "23rem", width: "34rem" }}
+                className="rounded-2 about-image img-fluid about-image"
+                
               />
+              {/* style={{ height: "23rem", width: "34rem" }} */}
               {/* <h2>Service Formula</h2>
                 <p className="text-start">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus

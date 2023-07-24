@@ -12,7 +12,10 @@
  .wel-image{
      padding: 0;
  }
-
+ .about-image{
+    height: 23rem;
+    width:34rem
+ }
  @media (min-width:320px) and (max-width:480px){
 
      .para-family{
@@ -23,6 +26,9 @@
       .wel-image{
           padding: 0;
       }
-
+      .about-image{
+        height:auto;
+        width:34rem
+     }
 
  }
